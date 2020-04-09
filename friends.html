@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
+
   <body>
     <!-- status-bar 시작 -->
     <div class="status-bar">
@@ -29,7 +30,7 @@
     <!-- header 시작 -->
     <header class="header">
       <div class="header__header-column">
-        <h1 calss="header__title">Friends</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -43,13 +44,9 @@
     <!-- nav 시작 -->
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/cats.jpg"
-              class="g-avatar friend__avartar"
-              width="10%"
-            />
+            <img src="images/cats.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Zoozu
@@ -63,13 +60,9 @@
       </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus friends</h5>
-        <div class="friends__friend friend friend">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img
-              src="images/cats.jpg"
-              class="g-avatar friend__avartar"
-              width="10%"
-            />
+            <img src="images/cats.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -78,15 +71,11 @@
           </div>
         </div>
       </div>
-      <ul class="friend__list"></ul>
-      <h5 class="friends__title">Friends 14</h5>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img
-              src="images/cats.jpg"
-              class="g-avatar friend__avartar"
-              width="10%"
-            />
+            <img src="images/cats.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Zoozu
@@ -98,8 +87,10 @@
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>As i am-백예린</span>
-              <i class="fas fa-play"></i>
+              <span
+                >As i am-백예린
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
